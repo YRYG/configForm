@@ -1,0 +1,40 @@
+export const components = {
+    // 块级组件
+    formGroup: (_) => import("./config/formGroup.vue"),
+    formCollapse: (_) => import("./config/formCollapse.vue"),
+    formTree: (_) => import("./config/formTree.vue"),
+    formFold: (_) => import("./config/formFold.vue"),
+    formFold2: (_) => import("./config/formFold2.vue"),
+    formTabs: (_) => import("./config/formTabs.vue"),
+    formSteps: (_) => import("./config/formSteps.vue"),
+    formDialog: (_) => import("./config/formDialog.vue"),
+
+    // 通用组件
+    formText: (_) => import("./config/formText.vue"),
+    formLink: (_) => import("./config/formLink.vue"),
+    formIcon: (_) => import("./config/formIcon.vue"),
+    formDivider: (_) => import("./config/formDivider.vue"),
+    formInput: (_) => import("./config/formInput.vue"),
+    formRadio: (_) => import("./config/formRadio.vue"),
+    formCheckbox: (_) => import("./config/formCheckbox.vue"),
+    formSwitch: (_) => import("./config/formSwitch.vue"),
+    formSelect: (_) => import("./config/formSelect.vue"),
+    formSection: (_) => import("./config/formSection.vue"),
+    formSelectTime: (_) => import("./config/formSelectTime.vue"),
+    formTextNumber: (_) => import("./config/formTextNumber.vue"),
+    formTextarea: (_) => import("./config/formTextarea.vue"),
+    formButton: (_) => import("./config/formButton.vue"),
+
+    // 自定义组件
+    formMedia: (_) => import("./config/formMedia.vue"),
+    formSelectAd: (_) => import("./config/formSelectAd.vue"),
+    formSelectTemp: (_) => import("./config/formSelectTemp.vue"),
+    formSelectPost: (_) => import("./config/formSelectPost.vue"),
+    formSelectAccount: (_) => import("./config/formSelectAccount.vue"),
+    formFbTargeting: (_) => import("./config/formFbTargeting.vue"),
+    formFbReach: (_) => import("./config/formFbReach.vue"),
+    formVariables: (_) => import("./config/formVariables.vue"),
+    formSelectAdSet: (_) => import("./config/formSelectAdSet.vue"),
+    formAudience: (_) => import("./config/formAudience.vue"),
+    formSetting: (_) => import("./config/formSetting.vue"),
+}
